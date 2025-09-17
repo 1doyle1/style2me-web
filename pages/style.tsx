@@ -1,13 +1,10 @@
-import NavBar from "../components/NavBar";
+import Layout from "../components/Layout";
 
 export default function StyleChat() {
   return (
-    <div className="bg-gray-900 min-h-screen text-white">
-      <NavBar />
-      <div className="p-6">
-        <h1 className="text-2xl font-bold mb-4">🧑‍🎨 Style Chat</h1>
-        <p>Talk to the AI stylist (coming soon).</p>
-      </div>
-    </div>
+    <Layout>
+      <h1 className="text-2xl font-bold mb-4">🧑‍🎨 Style Chat</h1>
+      <p>Talk to the AI stylist (coming soon).</p>
+    </Layout>
   );
 }

@@ -1,0 +1,8 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" width="135" height="40" viewBox="0 0 135 40" role="img" aria-label="Download on the App Store">
+  <rect width="135" height="40" rx="8" fill="#000"/>
+  <g fill="#fff" font-family="-apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Helvetica, Arial, sans-serif">
+    <text x="15" y="24" font-size="10" opacity=".8">Download on the</text>
+    <text x="15" y="35" font-size="16" font-weight="700">App Store</text>
+  </g>
+  <circle cx="10" cy="20" r="6" fill="#fff" />
+</svg>
