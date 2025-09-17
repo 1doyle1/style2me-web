@@ -1,3 +1,5 @@
+import { Eye, Zap, Heart, ShoppingBag, BarChart3, CreditCard } from "lucide-react";
+
 export default function Home() {
   return (
     <div className="bg-gray-100 text-gray-900">
@@ -23,19 +25,22 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-12">Why Style2Me?</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
           <div>
-            <h3 className="font-bold text-xl mb-3">🚫 Gatekeeping Ends Here</h3>
+            <Eye className="w-12 h-12 mx-auto text-blue-500 mb-4" />
+            <h3 className="font-bold text-xl mb-3">Gatekeeping Ends Here</h3>
             <p className="text-gray-600">
               Find the exact clothing pieces others try to keep secret.
             </p>
           </div>
           <div>
-            <h3 className="font-bold text-xl mb-3">🤖 AI-Powered Search</h3>
+            <Zap className="w-12 h-12 mx-auto text-blue-500 mb-4" />
+            <h3 className="font-bold text-xl mb-3">AI-Powered Search</h3>
             <p className="text-gray-600">
               Upload a photo or browse—Style2Me finds the real thing.
             </p>
           </div>
           <div>
-            <h3 className="font-bold text-xl mb-3">⚡ Stay Ahead</h3>
+            <Heart className="w-12 h-12 mx-auto text-blue-500 mb-4" />
+            <h3 className="font-bold text-xl mb-3">Stay Ahead</h3>
             <p className="text-gray-600">
               Discover underground fashion labels before they blow up.
             </p>
@@ -48,19 +53,22 @@ export default function Home() {
         <h2 className="text-3xl font-bold mb-12">For Fashion Brands</h2>
         <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
           <div>
-            <h3 className="font-bold text-lg mb-2">👀 Get Seen</h3>
+            <ShoppingBag className="w-12 h-12 mx-auto text-blue-500 mb-4" />
+            <h3 className="font-bold text-lg mb-2">Get Seen</h3>
             <p className="text-gray-600">
               Put your products in front of style-hungry users actively looking for new fashion.
             </p>
           </div>
           <div>
-            <h3 className="font-bold text-lg mb-2">📈 Grow Fast</h3>
+            <BarChart3 className="w-12 h-12 mx-auto text-blue-500 mb-4" />
+            <h3 className="font-bold text-lg mb-2">Grow Fast</h3>
             <p className="text-gray-600">
               Reach a new audience who loves discovering niche and indie labels.
             </p>
           </div>
           <div>
-            <h3 className="font-bold text-lg mb-2">💳 Drive Sales</h3>
+            <CreditCard className="w-12 h-12 mx-auto text-blue-500 mb-4" />
+            <h3 className="font-bold text-lg mb-2">Drive Sales</h3>
             <p className="text-gray-600">
               Direct traffic straight to your store and boost conversions.
             </p>
