@@ -1,90 +1,86 @@
 export default function Home() {
   return (
     <div className="bg-gray-100 text-gray-900">
-      {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center min-h-screen text-center px-6 bg-gray-100">
-        <h1 className="text-6xl font-extrabold text-blue-600 mb-6">
-          Style2Me
-        </h1>
-        <p className="text-xl text-gray-700 max-w-2xl mb-8">
-          Discover the future of fashion. AI-powered outfit building,
-          personalized recommendations, and a platform for small fashion
-          brands.
+      {/* Hero */}
+      <section className="flex flex-col items-center justify-center min-h-screen text-center px-6">
+        <h1 className="text-5xl font-extrabold mb-6">Style smarter, not harder.</h1>
+        <p className="text-lg text-gray-700 max-w-2xl mb-8">
+          Style2Me helps you discover fashion that fits your vibe, get AI-powered outfit ideas, 
+          and connect with emerging brands—all in one app.
         </p>
-        <div className="flex gap-4">
-          <button className="px-6 py-3 bg-blue-500 rounded-lg text-white font-semibold hover:bg-blue-600 transition">
-            Join Waitlist
-          </button>
-          <button className="px-6 py-3 bg-gray-300 rounded-lg text-gray-900 font-semibold hover:bg-gray-400 transition">
-            For Brands
-          </button>
-        </div>
+        <button className="px-6 py-3 bg-blue-500 rounded-lg text-white font-semibold hover:bg-blue-600 transition">
+          Join the Waitlist
+        </button>
       </section>
 
-      {/* Features Section */}
-      <section className="py-20 px-8 max-w-6xl mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-12">
-          Why Choose Style2Me?
-        </h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8 text-center">
-          <div className="p-6 bg-white rounded-xl shadow hover:scale-105 transition">
-            <span className="text-4xl mb-4 block">🧑‍🎨</span>
-            <h3 className="font-bold text-lg">AI Stylist</h3>
+      {/* Value Props */}
+      <section className="py-20 px-8 max-w-5xl mx-auto text-center">
+        <h2 className="text-3xl font-bold mb-12">Why You’ll Love Style2Me</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10">
+          <div>
+            <h3 className="font-bold text-xl mb-3">⏱️ Save Time</h3>
             <p className="text-gray-600">
-              Get personalized outfit recommendations tailored to your style.
+              Let AI curate outfits for you—no more endless scrolling.
             </p>
           </div>
-          <div className="p-6 bg-white rounded-xl shadow hover:scale-105 transition">
-            <span className="text-4xl mb-4 block">🛍️</span>
-            <h3 className="font-bold text-lg">Brand Discovery</h3>
+          <div>
+            <h3 className="font-bold text-xl mb-3">🛍️ Discover Brands</h3>
             <p className="text-gray-600">
-              Discover new fashion labels and support small creators.
+              Find unique fashion labels before everyone else.
             </p>
           </div>
-          <div className="p-6 bg-white rounded-xl shadow hover:scale-105 transition">
-            <span className="text-4xl mb-4 block">❤️</span>
-            <h3 className="font-bold text-lg">Favorites</h3>
+          <div>
+            <h3 className="font-bold text-xl mb-3">❤️ Build Your Style</h3>
             <p className="text-gray-600">
-              Save your favorite outfits and build your dream wardrobe.
-            </p>
-          </div>
-          <div className="p-6 bg-white rounded-xl shadow hover:scale-105 transition">
-            <span className="text-4xl mb-4 block">📱</span>
-            <h3 className="font-bold text-lg">Seamless App</h3>
-            <p className="text-gray-600">
-              A modern app experience built for fashion lovers.
+              Save looks you love and create your personalized wardrobe.
             </p>
           </div>
         </div>
       </section>
 
-      {/* Showcase Section */}
-      <section className="py-20 px-8 bg-gray-200 text-center">
-        <h2 className="text-4xl font-bold mb-8">Your Wardrobe, Smarter</h2>
+      {/* How It Works */}
+      <section className="py-20 px-8 bg-white text-center">
+        <h2 className="text-3xl font-bold mb-12">How It Works</h2>
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-w-5xl mx-auto">
+          <div>
+            <h3 className="font-bold text-lg mb-2">1. Upload or Browse</h3>
+            <p className="text-gray-600">Start with a look you like or explore curated feeds.</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-lg mb-2">2. AI Recommends</h3>
+            <p className="text-gray-600">Get smart suggestions that fit your vibe and budget.</p>
+          </div>
+          <div>
+            <h3 className="font-bold text-lg mb-2">3. Shop & Save</h3>
+            <p className="text-gray-600">Find where to buy or save outfits for later.</p>
+          </div>
+        </div>
+      </section>
+
+      {/* Showcase */}
+      <section className="py-20 px-8 text-center bg-gray-200">
+        <h2 className="text-3xl font-bold mb-8">Your AI-Powered Fashion Feed</h2>
         <div className="flex justify-center">
-          <div className="w-72 h-[500px] bg-white rounded-3xl shadow-xl flex items-center justify-center text-gray-500">
+          <div className="w-72 h-[500px] bg-white rounded-3xl shadow-xl flex items-center justify-center text-gray-400">
             App Preview Here 📱
           </div>
         </div>
       </section>
 
+      {/* Closing CTA */}
+      <section className="py-20 px-8 text-center">
+        <h2 className="text-3xl font-bold mb-6">Launching Soon</h2>
+        <p className="text-gray-700 mb-8">
+          Be the first to experience Style2Me when we launch.
+        </p>
+        <button className="px-6 py-3 bg-blue-500 rounded-lg text-white font-semibold hover:bg-blue-600 transition">
+          Join the Waitlist
+        </button>
+      </section>
+
       {/* Footer */}
       <footer className="py-8 px-6 text-center text-gray-600 bg-gray-300">
         <p>© {new Date().getFullYear()} Style2Me. All rights reserved.</p>
-        <div className="flex justify-center gap-6 mt-4">
-          <a href="#" className="hover:text-blue-500 transition">
-            About
-          </a>
-          <a href="#" className="hover:text-blue-500 transition">
-            Contact
-          </a>
-          <a href="#" className="hover:text-blue-500 transition">
-            Instagram
-          </a>
-          <a href="#" className="hover:text-blue-500 transition">
-            GitHub
-          </a>
-        </div>
       </footer>
     </div>
   );
